@@ -58,6 +58,7 @@ const authors = [
 
 authorRouter.get('/authors', (req, res) => {
     res.json(authors)
+    res.status(200)
 })
 
 
