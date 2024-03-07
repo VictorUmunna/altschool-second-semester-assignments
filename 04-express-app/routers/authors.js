@@ -56,9 +56,21 @@ const authors = [
 
   
 
-authorRouter.get('/authors', (req, res) => {
+authorRouter.get('/', (req, res) => {
     res.json(authors)
     res.status(200)
+})
+
+authorRouter.get("/:id", (req,res)=>{
+  const id = req.params.id;
+  const author = authors.find(author => author.id ==id)
+
+  if (!author) {
+    res.status(404).end(`Author with id "${id}" not found`)
+    return
+  }
+
+  res.json(author)
 })
 
 
