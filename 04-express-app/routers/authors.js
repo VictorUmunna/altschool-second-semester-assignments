@@ -74,4 +74,24 @@ authorRouter.get("/:id", (req,res)=>{
 })
 
 
+authorRouter.post( '/', (req, res) =>{
+  const author = req.body
+  authors.push(author)
+  res.json(author)
+})
+
+
+authorRouter.put("/:id", (req, res) =>{
+  const id = req.params.id
+  const author = req.body
+  const index = authors.findIndex(author => author.id == id)
+
+  if (index == -1){
+    res.status(404).end(`Author with id "${id}" not found`)
+    return
+  }
+
+  authors[index] = author
+  res.json(author)
+})
 module.exports = authorRouter
