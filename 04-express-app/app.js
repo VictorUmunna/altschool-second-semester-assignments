@@ -1,5 +1,6 @@
 const express = require("express")
 const bodyParser = require( "body-parser" )
+const morgan = require( 'morgan' );  
 
 // import router module from author.js
 const authorRoute = require("./routers/authors")
@@ -9,6 +10,7 @@ const PORT = 3000
 
 app.use(express.static('public'))
 app.use(bodyParser.json())
+app.use(morgan('dev'))
 
 app.use("/authors", authorRoute)
 
