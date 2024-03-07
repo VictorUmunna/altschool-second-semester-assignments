@@ -56,6 +56,8 @@ const authors = [
 
   
 
+
+  // GET method
 authorRouter.get('/', (req, res) => {
     res.json(authors)
     res.status(200)
@@ -74,6 +76,7 @@ authorRouter.get("/:id", (req,res)=>{
 })
 
 
+// POST method
 authorRouter.post( '/', (req, res) =>{
   const author = req.body
   authors.push(author)
@@ -81,6 +84,7 @@ authorRouter.post( '/', (req, res) =>{
 })
 
 
+// PUT method
 authorRouter.put("/:id", (req, res) =>{
   const id = req.params.id
   const author = req.body
@@ -96,6 +100,7 @@ authorRouter.put("/:id", (req, res) =>{
 })
 
 
+// DELETE method
 authorRouter.delete('/:id', (req, res) =>{
   const id = req.params.id
   const index = authors.findIndex(author => author.id == id)
