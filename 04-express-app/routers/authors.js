@@ -94,4 +94,22 @@ authorRouter.put("/:id", (req, res) =>{
   authors[index] = author
   res.json(author)
 })
+
+
+authorRouter.delete('/:id', (req, res) =>{
+  const id = req.params.id
+  const index = authors.findIndex(author => author.id == id)
+
+  if ( index == -1) {
+    res.status(400).end(`Author with id "${id}" not found`)
+    return
+  }
+
+  authors.splice(index, 1)
+  res.json(authors)
+})
+
+
+
+
 module.exports = authorRouter
