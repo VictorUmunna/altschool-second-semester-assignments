@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Jane Austen",
+      "dob": 1775,  
+      "country": "England"
+    },
+    {
+      "name": "Harper Lee",
+      "dob": 1926,
+      "country": "United States"
+    },
+    {
+      "name": "J. R. R. Tolkien",
+      "dob": 1892,
+      "country": "South Africa" 
+    },
+    {
+      "name": "Gabriel García Márquez",
+      "dob": 1927,
+      "country": "Colombia"
+    },
+    {
+      "name": "F. Scott Fitzgerald",
+      "dob": 1896,
+      "country": "United States"
+    },
+    {
+      "name": "Mary Shelley",
+      "dob": 1797,
+      "country": "England"
+    },
+    {
+      "name": "Miguel de Cervantes",
+      "dob": 1547,
+      "country": "Spain"
+    },
+    {
+      "name": "William Shakespeare",
+      "dob": 1564, 
+      "country": "England"
+    },
+    {
+      "name": "Marcel Proust",
+      "dob": 1871,
+      "country": "France"
+    },
+    {
+      "name": "Homer",
+      "dob": 1861,  
+      "country": "Ancient Greece"
+    }
+  ]

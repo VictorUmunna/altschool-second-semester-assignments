@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J. R. R. Tolkien",
+    "year": 1954
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "year": 1967
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818
+  },
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "year": 1615
+  },
+  {
+    "title": "Hamlet",
+    "author": "William Shakespeare",
+    "year": 1603
+  },
+  {
+    "title": "In Search of Lost Time",
+    "author": "Marcel Proust",
+    "year": 1913
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "year": 1950
+  }
+]
